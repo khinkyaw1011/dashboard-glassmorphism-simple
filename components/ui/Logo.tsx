@@ -1,0 +1,9 @@
+export function Logo({ className = "" }: { className?: string }) {
+  return (
+    <span role="img" aria-label="Smart Wagon" className={className}>
+      <svg viewBox="159 127 600 600" className="size-8" fill="none" stroke="currentColor" strokeWidth={24} strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
+        <path d="M205 436 L200 390 C195 354 220 330 254 330 H479 C515 330 543 356 533 395 L521 510 C518 537 498 558 472 558 H280 C244 558 217 539 213 505 Z"/><path d="M205 436 H237 C260 436 279 445 300 459 H386"/><path d="M432 416V437M460 416V437M489 416V437"/><circle cx="279" cy="559" r="44"/><circle cx="279" cy="559" r="21"/><circle cx="453" cy="559" r="44"/><circle cx="453" cy="559" r="21"/><path d="M656 422 C645 407 592 342 592 316 C592 280 620 252 656 252 C692 252 720 280 720 316 C720 344 668 408 656 422 Z"/><circle cx="656" cy="313" r="31"/><path d="M656 465 H588 C568 465 556 480 556 497 C556 515 570 529 588 529 H615 C636 529 650 545 650 564 C650 582 635 596 615 596 H523"/><circle cx="656" cy="465" r="16"/>
+      </svg>
+    </span>
+  );
+}
